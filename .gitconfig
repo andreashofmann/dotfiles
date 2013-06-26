@@ -16,4 +16,7 @@
   lola = log --graph --decorate --pretty=oneline --abbrev-commit --all --date=local
   unstage = reset HEAD
   ignored = ls-files -o -i --exclude-standard
+[color]
+  ui = auto
+  interactive = auto
 
