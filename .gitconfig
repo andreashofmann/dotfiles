@@ -3,3 +3,16 @@
 	email = mail@andreashofmann.net
 [credential]
 	helper = cache --timeout=3600
+[alias]
+st = status
+ci = commit
+br = branch
+co = checkout
+df = diff
+ds = diff --staged
+lg = log -p
+ls = ls-files
+lol = log --graph --decorate --pretty=oneline --abbrev-commit
+lola = log --graph --decorate --pretty=oneline --abbrev-commit --all --date=local
+unstage = reset HEAD
+ignored = ls-files -o -i --exclude-standard
